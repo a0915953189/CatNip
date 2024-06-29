@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    padding-top: 60px;
+}
+
+section {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* 為每個部分添加獨特的背景和樣式 */
+#home {
+    background-image: url('path-to-your-sci-fi-image.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 其他部分的樣式... */
